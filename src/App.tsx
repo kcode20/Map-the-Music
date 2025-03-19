@@ -4,6 +4,7 @@ import { useRef, useEffect } from "react";
 import "mapbox-gl/dist/mapbox-gl.css";
 
 import "./App.css";
+import TopTracks from "./TopTrack";
 
 const App = () => {
   const mapRef = useRef<mapboxgl.Map | null>();
@@ -24,6 +25,7 @@ const App = () => {
 
   return (
     <>
+      <TopTracks />
       <div id="map-container" ref={mapContainerRef} />
     </>
   );
