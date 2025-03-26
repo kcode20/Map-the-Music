@@ -22,7 +22,7 @@ const TopTracks: React.FC = () => {
 
   return (
     <div>
-      <h1>Top 50 Songs</h1>
+      <h1>Top 100 Songs</h1>
       <ul>
         {tracks.map((track, index) => (
           <li key={index}>
